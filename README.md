@@ -10,7 +10,7 @@ Dentro da prioridade, o atendimento obedece à política FIFO. A princípio, um 
 
 O objetivo deste trabalho é implementar um programa na linguagem C que faça o gerenciamento das filas conforme descrito acima. As filas deverão ser implementadas na forma de uma multilista conforme a figura abaixo:
 
-
+![alt text](https://github.com/SadiJr/Trabalho-SO-01/blob/master/.imagens/lista.png)
 
 Somente o apontador para a fila principal deverá ser mantido. 
 
@@ -18,6 +18,6 @@ Também deverá ser implementado um simulador para testar o sistema de gerência
 
 Quando uma thread guichê está livre, ela desenfileira algum cidadão seguindo a política definida no início do enunciado. Após, ela gera um atraso - o tempo para atender o cidadão. 
 
-> Método
+* Método
 
 Conforme dito, a implementação deve ser realizada na linguagem C em qualquer ambiente.
